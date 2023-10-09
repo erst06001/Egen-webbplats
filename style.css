@@ -1,0 +1,33 @@
+body{background-color: rgb(213, 249, 250);}
+
+h1{
+    text-align: center;
+    color: rgb(95, 93, 93);}
+
+p{text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+
+table{
+    width: 60%;
+}
+table th,td{
+   border: 2px solid black;
+   padding: 1%
+}
+th {
+    background-color: rgb(226, 225, 218);
+}
+td{
+    background-color: aliceblue;
+}
+
+tr:nth-child(odd) {background-color: rgb(187, 187, 61);}
+
+ul{
+    color: black;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
