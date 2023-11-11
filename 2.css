@@ -48,3 +48,18 @@ h1{
     .Text2 {
         text-align: center;
     }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+        grid-template-rows: repeat(2, 150px); /* Two rows with a fixed height of 100px */
+        gap: 10px; /* Gap between grid items */
+        padding: 20px;
+      }
+      
+      .grid-item {
+        background-color: #e6ecf0;
+        color: #0c0b0b;
+        padding: 20px;
+        text-align: center;
+        border: 1px #0c0b0b;
+      }

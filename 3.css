@@ -44,7 +44,16 @@ h1{
         bottom: 0;
         width: 98.2%;
     }
-    img{
+    img {
         width: 700px;
         
     }
+
+    rik {
+        color: rgb(221, 165, 24);
+    }
+
+    #Howick{
+        text-align: center;
+      }
+
